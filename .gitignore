@@ -15,6 +15,7 @@
 .DS_Store
 .prettierignore
 
-.*-template.md
-.style-guide.md
+*-template.md
+style-guide.md
 .hintrc
+.vscode
