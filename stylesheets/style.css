@@ -64,10 +64,10 @@ footer {
     text-align: center;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     font-weight: 700;
-    color: var(--darkBlue)
+    color: var(--darkBlue);
 }
 
 @media screen and (max-width: 600px) {
