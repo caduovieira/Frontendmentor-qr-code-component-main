@@ -3,6 +3,7 @@
     --lightGray: hsl(212, 45%, 89%); /* paragraph color */
     --grayishBlue: hsl(220, 15%, 55%); /* background color */ 
     --darkBlue: hsl(218, 44%, 22%); /* <h1> color */
+    --footerBlue: hsl(213, 89%, 82%); /* footer color*/
 }
    
 body {
@@ -52,4 +53,26 @@ p {
     letter-spacing: 0.2px;
     text-align: center;
 }
-   
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--footerBlue);
+    
+    color: var(--grayishBlue);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--darkBlue)
+}
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        font-size: 12px;
+    }
+}
